@@ -13,7 +13,7 @@ export default class Topics extends Component {
         <ul>
           <li>
             <Link to={`${this.props.match.url}/rendering`}>
-              使用React组件
+              {`${this.props.match.url}`}
             </Link>
           </li>
           <li>
